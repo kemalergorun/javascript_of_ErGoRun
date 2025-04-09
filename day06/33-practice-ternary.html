@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice - Ternary</title>
+
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        h1{
+            text-align: center;
+            color: red;
+        }
+        .container{
+            width: 20rem;
+            background-color: rgb(118, 183, 241);
+            padding: 20px;
+            margin: 0 auto;
+            border-radius: 20px;
+        }
+
+        .radioContainer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0px;
+        }
+
+        input#salary{
+            width: 100%;
+            background-color: transparent;
+            padding: 10px 20px;
+            border-radius: 20px;
+        }
+
+        p#result{
+            text-align: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Practice - Ternary</h1>
+
+    <div class="container">
+        <div class="radioContainer">
+            <input type="radio" id="working" name="status" oninput="setSalary()" value="working">
+            <label for="working">Working</label>
+            <input type="radio" id="retired" name="status" oninput="setSalary()" value="retired">
+            <label for="retired">Retired</label>
+        </div>
+        <input type="text" placeholder="Please enter your salary" name="salary" id="salary" oninput="setSalary()">
+
+        <p id="result"></p>
+    </div>
+
+
+    <script src="./js/33-practice-ternary.js"></script>
+</body>
+</html>
+
+
+
+
+
+
