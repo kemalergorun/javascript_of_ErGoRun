@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice - For Loop</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: gold;
+        }
+        h1{
+            text-align: center;
+            color: red;
+            margin: 20px 0px;
+        }
+        .container{
+            width: 20rem;
+            background-color: darkgoldenrod;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 10px auto;
+            border-radius: 10px;
+        }
+        .inner-container{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(101, 74, 6);
+            padding: 10px;
+            border-radius: 10px;
+            margin: 10px 0;
+        }
+        input, button{
+            background: none;
+            border: none;
+            padding: 5px 10px;
+            color: white;
+        }
+        button{
+            height: 100%;
+            border: 1px solid gold;
+            border-radius: 0 10px 10px 0;
+        }
+        ul{
+            list-style-type: none;
+            width: 100%;
+        }
+        li{
+            background-color: rgb(97, 71, 5);
+            margin-top: 5px;
+            padding: 5px;
+            width: 100%;
+            text-align: center;
+            color: white;
+            border-radius: 5px;
+        }
+    </style>
+  </head>
+  <body>
+    <h1>Practice - For Loop</h1>
+
+    <div class="container">
+        <div class="inner-container">
+            <input type="text" id="discount">
+            <button type="button" title="Apply" onclick="applyDiscount()">Apply</button>
+        </div>
+        <ul>
+            <li>Graphics Card <span>1000</span>$</li>
+            <li>Monitor <span>400</span>$</li>
+            <li>Keyboard <span>50</span>$</li>
+            <li>Headphone <span>30</span>$</li>
+        </ul>
+    </div>
+
+
+    <script src="./js/39-practice-for-loop.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
