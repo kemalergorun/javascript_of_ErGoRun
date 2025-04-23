@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice - Map</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        h1{
+            text-align: center;
+            color: red;
+            padding: 20px;
+            border-bottom: 2px solid black;
+        }
+
+        .container{
+            width: 30rem;
+            margin: 30px auto;
+            padding: 30px;
+            background-color: lightgoldenrodyellow;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            gap: 15px;
+        }
+
+        select{
+            width: 100%;
+            height: 35px;
+            padding: 5px 10px;
+        }
+
+        .card{
+            padding: 10px;
+            background-color: rgb(55, 42, 8);
+            width: 100%;
+            border-radius: 10px;
+            color: white;
+            border: 3px solid orangered;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .card img{
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Practice - Map</h1>
+
+    <div class="container">
+        <select name="currency" id="currency">
+        </select>
+
+        <div class="card">
+            <img src="https://picsum.photos/200" alt="">
+            <h2>Nice Item</h2>
+            <p>This is an item that you cannot miss!</p>
+            <p id="price">12$</p>
+        </div>
+    </div>
+
+    <script src="./js/82-practice-map.js"></script>
+</body>
+</html>
