@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Storage API</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+      integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="p-3" data-bs-theme="dark">
+    <h1 class="text-center text-danger">Web Storage API</h1>
+
+    <div class="contaner d-flex justify-content-center align-items-center mt-5 gap-3">
+      <button
+        id="btnSet"
+        type="button"
+        title="Set Item"
+        class="btn btn-success"
+      >
+        Set Local Storage
+      </button>
+
+      <button
+        id="btnRemove"
+        type="button"
+        title="Remove Item"
+        class="btn btn-warning"
+      >
+        Remove Local Storage
+      </button>
+
+      <button
+        id="btnClear"
+        type="button"
+        title="Clear Items"
+        class="btn btn-danger"
+      >
+        Clear Storage
+      </button>
+    </div>
+    <!-- openssl rand -base64 32 to get auto number -->
+
+    <script src="./js/112-web-storage-api.js"></script>
+  </body>
+</html>
